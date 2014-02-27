@@ -1,3 +1,5 @@
+<%@page pageEncoding="utf-8" %>
+
 <!DOCTYPE HTML>
 <html lang="ja-JP">
 <head>
@@ -28,6 +30,7 @@
 
 <!-- HeaderArea ================== -->
 <tiles:insert template="common/header.jsp"/>
+<!--#include virtual="/gcms_common/shared/include/header.txt" -->
 <!-- /HeaderArea ================== -->
 
 <!-- ContentWrap ================== -->
@@ -35,7 +38,7 @@
 <div class="cwInnr01 clearfix">
 
 <ul id="BreadcrumbList">
-<li><a href="/">トップページ</a><span></span></li><!--
+<li><a href="/">トップページ</a><span>></span></li><!--
 --><li>作業ガイドライン インデックス</li><!--
 --></ul>
 
@@ -56,7 +59,7 @@
 <div class="sectM">
 <h2 class="h2Basic01 sectS">ファイルリスト</h2>
 <ul class="list01 sectS">
-<li><a href="/_Oni/list/sagyo.html">業務システム</a></li>
+<li><a href="/_Oni/list/">業務システム</a></li>
 <li>マイページ（ユーザ使用システム）</li>
 <li>エントランス(受付用)</li>
 </ul><!-- /.list01 -->
