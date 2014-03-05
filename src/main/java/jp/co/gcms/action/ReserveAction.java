@@ -18,11 +18,9 @@ package jp.co.gcms.action;
 import org.seasar.struts.annotation.Execute;
 
 public class ReserveAction {
-	//
+	//予約登録
     @Execute(validator = false)
 	public String reserveEntry() {
         return "reserveEntry.jsp";
 	}
-    //
-
 }

@@ -94,10 +94,10 @@ public final class header_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<a href=\"/gcms/master/mrPlayList/\">プレイ時間一覧</a>\r\n");
       out.write("</div>\r\n");
       out.write("</li><!--\r\n");
-      out.write("--><li class=\"gnPnav\"><a href=\"/employee/\" accesskey=\"2\">従業員管理</a>\r\n");
+      out.write("--><li class=\"gnPnav\"><a href=\"/employee/\" accesskey=\"2\">スタッフ管理</a>\r\n");
       out.write("<div class=\"subNavArea hide\">\r\n");
-      out.write("<a href=\"/gcms/employee/employeeEntry/\">従業員登録</a>\r\n");
-      out.write("<a href=\"/gcms/employee/employeeList/\">従業員一覧</a>\r\n");
+      out.write("<a href=\"/gcms/employee/employeeEntry/\">スタッフ登録</a>\r\n");
+      out.write("<a href=\"/gcms/employee/employeeList/\">スタッフ一覧</a>\r\n");
       out.write("</div>\r\n");
       out.write("</li><!--\r\n");
       out.write("--><li class=\"gnPnav\"><a href=\"/gcms/reserve/\" accesskey=\"3\">予約管理</a>\r\n");

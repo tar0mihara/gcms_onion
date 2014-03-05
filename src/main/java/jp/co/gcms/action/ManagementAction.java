@@ -18,7 +18,7 @@ package jp.co.gcms.action;
 import org.seasar.struts.annotation.Execute;
 
 public class ManagementAction {
-	//
+	//会計管理
     @Execute(validator = false)
 	public String account() {
         return "account.jsp";

@@ -18,7 +18,7 @@ package jp.co.gcms.action;
 import org.seasar.struts.annotation.Execute;
 
 public class IndexAction {
-	//
+	//トップページ
     @Execute(validator = false)
 	public String index() {
         return "index.jsp";

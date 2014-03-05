@@ -18,12 +18,12 @@ package jp.co.gcms.action;
 import org.seasar.struts.annotation.Execute;
 
 public class EmployeeAction {
-	//
+	//スタッフ登録
     @Execute(validator = false)
 	public String employeeEntry() {
         return "employeeEntry.jsp";
 	}
-    //
+    //スタッフ一覧
     @Execute(validator = false)
 	public String employeeList() {
         return "employeeList.jsp";
