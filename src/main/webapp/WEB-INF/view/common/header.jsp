@@ -15,54 +15,49 @@
 
 <div id="GlobalNav">
 <ul><!--
---><li class="gnPnav current"><a href="/menu.html" accesskey="1">マスタ登録</a>
+--><li class="gnPnav current"><a href="/master/" accesskey="1">マスタ登録</a>
 <div class="subNavArea hide">
-<a href="/A10000101.html">従業員区分登録</a>
-<a href="/A10000102.html">従業員区分一覧</a>
-<a href="/list.html">施設登録</a>
-<a href="/knew.html">施設一覧</a>
-<a href="/klist.html">ロッカー登録</a>
-<a href="/klist.html">ロッカー一覧</a>
-<a href="/klist.html">予約オプション登録</a>
-<a href="/klist.html">予約オプション一覧</a>
-<a href="/klist.html">プレイ時間登録</a>
-<a href="/klist.html">プレイ時間一覧</a>
+<a href="/master/A001020/">従業員区分登録</a>
+<a href="/master/A001060/">従業員区分一覧</a>
+<a href="/master/A001080/">施設登録</a>
+<a href="/master/A001120/">施設一覧</a>
+<a href="/master/A001140/">ロッカー登録</a>
+<a href="/master/A001180/">ロッカー一覧</a>
+<a href="/master/A001200/">予約オプション登録</a>
+<a href="/master/A001240/">予約オプション一覧</a>
+<a href="/master/A001260/">プレイ時間登録</a>
+<a href="/master/A001300/">プレイ時間一覧</a>
 </div>
 </li><!--
---><li class="gnPnav"><a href="order01_01.html" accesskey="2">従業員管理</a>
+--><li class="gnPnav"><a href="/employee/" accesskey="2">従業員管理</a>
 <div class="subNavArea hide">
-<a href="/A10000601.html">従業員登録</a>
-<a href="/A10000602.html">従業員一覧</a>
+<a href="/employee/A002020/">従業員登録</a>
+<a href="/employee/A002060/">従業員一覧</a>
 </div>
 </li><!--
---><li class="gnPnav"><a href="order01_01.html" accesskey="3">予約管理</a>
+--><li class="gnPnav"><a href="/reserve/" accesskey="3">予約管理</a>
 <div class="subNavArea hide">
-<a href="/new.html">予約登録</a>
-<a href="/new.html">予約一覧</a>
+<a href="/reserve/A003020/">予約登録</a>
+<a href="/reserve/A003060/">予約一覧</a>
 </div>
 </li><!--
---><li class="gnPnav"><a href="rder01_02.html" accesskey="4">当日処理</a>
+--><li class="gnPnav"><a href="/today/" accesskey="4">当日処理</a>
 <div class="subNavArea hide">
-<a href="/new.html">スタート表</a>
-<a href="/new.html">チェックイン管理</a>
+<a href="/today/A004020/">スタート表</a>
+<a href="/today/A004060/">チェックイン管理</a>
 </div>
 </li><!--
---><li class="gnPnav"><a href="/order02_01.html" accesskey="5">会員管理</a>
+--><li class="gnPnav"><a href="/member/" accesskey="5">会員管理</a>
 <div class="subNavArea hide">
-<a href="/new.html">会員登録</a>
-<a href="/new.html">会員一覧</a>
+<a href="/member/A005020/">会員登録</a>
+<a href="/member/A005060/">会員一覧</a>
 </div>
 </li><!--
---><li class="gnPnav"><a href="/order02_02.html" accesskey="6">経営管理</a>
+--><li class="gnPnav"><a href="/management/" accesskey="6">経営管理</a>
 <div class="subNavArea hide">
-<a href="/new.html">会計管理</a>
-<a href="/new.html">各種売上データ</a>
+<a href="/management/A006020/">会計管理</a>
+<a href="/management/A006080/">各種売上データ</a>
 </div>
-</li><!--
---><li class="gnPnav"><a href="/order02_02.html" accesskey="7">会計管理</a><!--
---></li><!--
---><li class="gnPnav"><a href="/order02_02.html" accesskey="8">各種売上データ</a><!--
---></li></ul>
 </div>
 <!-- /GlobalNav -->
 </div>

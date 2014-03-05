@@ -17,7 +17,7 @@ package jp.co.gcms.action;
 
 import org.seasar.struts.annotation.Execute;
 
-public class IndexAction {
+public class MasterAction {
 	//
     @Execute(validator = false)
 	public String index() {
