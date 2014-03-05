@@ -15,49 +15,50 @@
 
 <div id="GlobalNav">
 <ul><!--
---><li class="gnPnav current"><a href="/master/" accesskey="1">マスタ登録</a>
+--><li class="gnPnav current"><a href="/gcms/master/" accesskey="1">マスタ登録</a>
 <div class="subNavArea hide">
-<a href="/master/A001020/">従業員区分登録</a>
-<a href="/master/A001060/">従業員区分一覧</a>
-<a href="/master/A001080/">施設登録</a>
-<a href="/master/A001120/">施設一覧</a>
-<a href="/master/A001140/">ロッカー登録</a>
-<a href="/master/A001180/">ロッカー一覧</a>
-<a href="/master/A001200/">予約オプション登録</a>
-<a href="/master/A001240/">予約オプション一覧</a>
-<a href="/master/A001260/">プレイ時間登録</a>
-<a href="/master/A001300/">プレイ時間一覧</a>
+<a href="/gcms/master/mrEmployeeEntry/">従業員区分登録</a>
+<a href="/gcms/master/mrEmployeeList/">従業員区分一覧</a>
+<a href="/gcms/master/mrFacilityEntry/">施設登録</a>
+<a href="/gcms/master/mrFacilityList/">施設一覧</a>
+<a href="/gcms/master/mrRockerEntry/">ロッカー登録</a>
+<a href="/gcms/master/mrRockerList/">ロッカー一覧</a>
+<a href="/gcms/master/mrReserveEntry/">予約オプション登録</a>
+<a href="/gcms/master/mrReserveList/">予約オプション一覧</a>
+<a href="/gcms/master/mrPlayEntry/">プレイ時間登録</a>
+<a href="/gcms/master/mrPlayList/">プレイ時間一覧</a>
 </div>
 </li><!--
 --><li class="gnPnav"><a href="/employee/" accesskey="2">従業員管理</a>
 <div class="subNavArea hide">
-<a href="/employee/A002020/">従業員登録</a>
-<a href="/employee/A002060/">従業員一覧</a>
+<a href="/gcms/employee/employeeEntry/">従業員登録</a>
+<a href="/gcms/employee/employeeList/">従業員一覧</a>
 </div>
 </li><!--
---><li class="gnPnav"><a href="/reserve/" accesskey="3">予約管理</a>
+--><li class="gnPnav"><a href="/gcms/reserve/" accesskey="3">予約管理</a>
 <div class="subNavArea hide">
-<a href="/reserve/A003020/">予約登録</a>
-<a href="/reserve/A003060/">予約一覧</a>
+<a href="/gcms/reserve/reserveEntry/">予約登録</a>
+<a href="/gcms/reserve/reserveList/">予約一覧</a>
 </div>
 </li><!--
---><li class="gnPnav"><a href="/today/" accesskey="4">当日処理</a>
+--><li class="gnPnav"><a href="/gcms/today/" accesskey="4">当日処理</a>
 <div class="subNavArea hide">
-<a href="/today/A004020/">スタート表</a>
-<a href="/today/A004060/">チェックイン管理</a>
+<a href="/gcms/today/start/">スタート表</a>
+<a href="/gcms/today/checkin/">チェックイン管理</a>
 </div>
 </li><!--
---><li class="gnPnav"><a href="/member/" accesskey="5">会員管理</a>
+--><li class="gnPnav"><a href="/gcms/member/" accesskey="5">会員管理</a>
 <div class="subNavArea hide">
-<a href="/member/A005020/">会員登録</a>
-<a href="/member/A005060/">会員一覧</a>
+<a href="/gcms/member/memberEntry/">会員登録</a>
+<a href="/gcms/member/memberList/">会員一覧</a>
 </div>
 </li><!--
---><li class="gnPnav"><a href="/management/" accesskey="6">経営管理</a>
+--><li class="gnPnav"><a href="/gcms/management/" accesskey="6">経営管理</a>
 <div class="subNavArea hide">
-<a href="/management/A006020/">会計管理</a>
-<a href="/management/A006080/">各種売上データ</a>
+<a href="/gcms/management/account/">会計管理</a>
+<a href="/gcms/management/data/">各種売上データ</a>
 </div>
-</div>
+</li><!--
+ --></ul>
 <!-- /GlobalNav -->
 </div>

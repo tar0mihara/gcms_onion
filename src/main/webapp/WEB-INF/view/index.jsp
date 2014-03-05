@@ -114,7 +114,6 @@
 
 <!-- FooterArea ================== -->
 <tiles:insert template="common/footer.jsp"/>
-<!--#include virtual="/gcms_common/shared/include/footer.txt" -->
 <!-- /FooterArea ================== -->
 </div>
 <!-- /#Container -->

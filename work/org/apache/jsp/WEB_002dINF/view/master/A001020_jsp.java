@@ -1,10 +1,10 @@
-package org.apache.jsp.WEB_002dINF.view;
+package org.apache.jsp.WEB_002dINF.view.master;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class A001020_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -73,7 +73,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<html lang=\"ja-JP\">\r\n");
       out.write("<head>\r\n");
       out.write("<meta charset=\"UTF-8\">\r\n");
-      out.write("<title>作業ガイドライン インデックス</title>\r\n");
+      out.write("<title>スタッフ区分登録 | スタッフ区分管理 | 作業ガイドライン インデックス</title>\r\n");
       out.write("<meta name=\"description\" content=\"description\">\r\n");
       out.write("<meta name=\"keywords\" content=\"keywords\">\r\n");
       out.write("<meta name=\"viewport\" content=\"width=1024\">\r\n");
@@ -85,11 +85,11 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<!-- /commonImport ================== -->\r\n");
       out.write("<!-- EachPage ================== -->\r\n");
       out.write("<!-- CSS -->\r\n");
-      out.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"/gcms_common/_Oni/shared/css/dummy.css\">\r\n");
+      out.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"/gcms_common/shared/css/pages.css\">\r\n");
       out.write("<!-- JS -->\r\n");
       out.write("<!-- /EachPage ================== -->\r\n");
       out.write("</head>\r\n");
-      out.write("<body id=\"Index\" class=\"pageType01\"><div id=\"Container\">\r\n");
+      out.write("<body id=\"A001020\" class=\"pageType01 oneColumn\"><div id=\"Container\">\r\n");
       out.write("\r\n");
       out.write("<!-- NoScriptArea ================== -->\r\n");
       out.write("<noscript>\r\n");
@@ -101,7 +101,6 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       if (_jspx_meth_tiles_005finsert_005f0(_jspx_page_context))
         return;
       out.write("\r\n");
-      out.write("<!--#include virtual=\"/gcms_common/shared/include/header.txt\" -->\r\n");
       out.write("<!-- /HeaderArea ================== -->\r\n");
       out.write("\r\n");
       out.write("<!-- ContentWrap ================== -->\r\n");
@@ -110,74 +109,71 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\r\n");
       out.write("<ul id=\"BreadcrumbList\">\r\n");
       out.write("<li><a href=\"/\">トップページ</a><span>></span></li><!--\r\n");
-      out.write("--><li>作業ガイドライン インデックス</li><!--\r\n");
+      out.write("--><li>スタッフ区分管理<span>></span></li><!--\r\n");
+      out.write("--><li>スタッフ区分登録</li><!--\r\n");
       out.write("--></ul>\r\n");
+      out.write("<!-- #BreadcrumbList -->\r\n");
       out.write("\r\n");
       out.write("<!-- ContentMainArea ================== -->\r\n");
       out.write("<div id=\"ContentMainArea\">\r\n");
       out.write("\r\n");
-      out.write("<h1 class=\"h1Basic01 sectS\"><span class=\"h1Inr01\">作業ガイドライン インデックス</span></h1>\r\n");
+      out.write("\t<h1 class=\"h1Basic01 sectS\"><span class=\"h1Inr01\">スタッフ区分登録</span></h1>\r\n");
       out.write("\r\n");
-      out.write("<div class=\"sectM\">\r\n");
-      out.write("<h2 class=\"h2Basic01 sectS\">参照すべき資料</h2>\r\n");
-      out.write("<ul class=\"list01 sectS\">\r\n");
-      out.write("<li><a href=\"/_Oni/guide/guide_01.html\">仕様定義書</a></li>\r\n");
-      out.write("<li>コーディング規則</li>\r\n");
-      out.write("</ul><!-- /.list01 -->\r\n");
-      out.write("</div>\r\n");
-      out.write("<!-- /.sectM -->\r\n");
-      out.write("\r\n");
-      out.write("<div class=\"sectM\">\r\n");
-      out.write("<h2 class=\"h2Basic01 sectS\">ファイルリスト</h2>\r\n");
-      out.write("<ul class=\"list01 sectS\">\r\n");
-      out.write("<li><a href=\"/_Oni/list/\">業務システム</a></li>\r\n");
-      out.write("<li>マイページ（ユーザ使用システム）</li>\r\n");
-      out.write("<li>エントランス(受付用)</li>\r\n");
-      out.write("</ul><!-- /.list01 -->\r\n");
-      out.write("</div>\r\n");
-      out.write("<!-- /.sectM -->\r\n");
-      out.write("\r\n");
-      out.write("<div class=\"sectM\">\r\n");
-      out.write("<h2 class=\"h2Basic01 sectS\">テンプレート</h2>\r\n");
-      out.write("<ul class=\"list01 sectS\">\r\n");
-      out.write("<li><a href=\"frame/frame_normal.html\">ページフレーム（がわ）</a></li>\r\n");
-      out.write("<li><a href=\"frame/frame_one.html\">ページフレーム（がわ）：1カラムレイアウト</a></li>\r\n");
-      out.write("</ul><!-- /.list01 -->\r\n");
-      out.write("</div>\r\n");
-      out.write("<!-- /.sectM -->\r\n");
-      out.write("\r\n");
-      out.write("<div class=\"sectM\">\r\n");
-      out.write("<h2 class=\"h2Basic01 sectS\">モジュール</h2>\r\n");
-      out.write("<p class=\"txtSub01 sectS\">※影響範囲を狭めるため<span class=\"txtAccent01\">#ContentMainArea</span>内で使用して下さい。</p>\r\n");
-      out.write("<ul class=\"list01\">\r\n");
-      out.write("<li><a href=\"/_Oni/module/module_01.html\">基本段落／区切り線</a></li>\r\n");
-      out.write("<li><a href=\"/_Oni/module/module_02.html\">見出し／テキスト／リンク</a></li>\r\n");
-      out.write("<li><a href=\"/_Oni/module/module_03.html\">リスト／表組み</a></li>\r\n");
-      out.write("<li><a href=\"/_Oni/module/module_04.html\">ブロック幅／カラム／画像まわり</a></li>\r\n");
-      out.write("</ul>\r\n");
-      out.write("</div>\r\n");
-      out.write("<!-- /.sectM -->\r\n");
-      out.write("\r\n");
-      out.write("<div class=\"sectM\">\r\n");
-      out.write("<h2 class=\"h2Basic01 sectS\">Javascriptテスト</h2>\r\n");
-      out.write("<ul class=\"list01 sectS\">\r\n");
-      out.write("<li><a href=\"test/calender.html\">カレンダー</a></li>\r\n");
-      out.write("</ul><!-- /.list01 -->\r\n");
-      out.write("</div>\r\n");
-      out.write("<!-- /.sectM -->\r\n");
-      out.write("\r\n");
-      out.write("<div class=\"sectM\">\r\n");
-      out.write("<h2 class=\"h2Basic01 sectS\">製作者メモ</h2>\r\n");
-      out.write("<p>なし</p>\r\n");
-      out.write("</div>\r\n");
-      out.write("<!-- /.sectM -->\r\n");
-      out.write("\r\n");
+      out.write("\t<table class=\"tbl01 sectM\">\r\n");
+      out.write("\t\t<colgroup>\r\n");
+      out.write("\t\t\t<col style=\"width:30%\">\r\n");
+      out.write("\t\t\t<col style=\"width:70%\">\r\n");
+      out.write("\t\t</colgroup>\r\n");
+      out.write("\t\t<tbody>\r\n");
+      out.write("\t\t\t<!-- row -->\r\n");
+      out.write("\t\t\t<tr>\r\n");
+      out.write("\t\t\t\t<th>スタッフ区分ID</th>\r\n");
+      out.write("\t\t\t\t<td><span id=\"StafKId\">000000001</span></td>\r\n");
+      out.write("\t\t\t</tr>\r\n");
+      out.write("\t\t\t<!-- /row -->\r\n");
+      out.write("\t\t\t<!-- row -->\r\n");
+      out.write("\t\t\t<tr>\r\n");
+      out.write("\t\t\t\t<th><label for=\"SfKName\">スタッフ区分</label></th>\r\n");
+      out.write("\t\t\t\t<td><input type=\"text\" name=\"SfKName\" id=\"SfKName\" class=\"inpTxt01\"></td>\r\n");
+      out.write("\t\t\t</tr>\r\n");
+      out.write("\t\t\t<!-- /row -->\r\n");
+      out.write("\t\t\t<!-- row -->\r\n");
+      out.write("\t\t\t<tr>\r\n");
+      out.write("\t\t\t\t<th>権限選択</th>\r\n");
+      out.write("\t\t\t\t<td>\r\n");
+      out.write("\t\t\t\t\t<ul class=\"list01\">\r\n");
+      out.write("\t\t\t\t\t\t<li>\r\n");
+      out.write("\t\t\t\t\t\t\t<label for=\"SfKSelect01\"><input type=\"checkbox\" class=\"inpChk01\" name=\"SfKSelect\" id=\"SfKSelect01\">マスタ登録</label>\r\n");
+      out.write("\t\t\t\t\t\t</li>\r\n");
+      out.write("\t\t\t\t\t\t<li>\r\n");
+      out.write("\t\t\t\t\t\t\t<label for=\"SfKSelect02\"><input type=\"checkbox\" class=\"inpChk01\" name=\"SfKSelect\" id=\"SfKSelect02\">予約管理</label>\r\n");
+      out.write("\t\t\t\t\t\t</li>\r\n");
+      out.write("\t\t\t\t\t\t<li>\r\n");
+      out.write("\t\t\t\t\t\t\t<label for=\"SfKSelect03\"><input type=\"checkbox\" class=\"inpChk01\" name=\"SfKSelect\" id=\"SfKSelect03\">会員管理</label>\r\n");
+      out.write("\t\t\t\t\t\t</li>\r\n");
+      out.write("\t\t\t\t\t\t<li>\r\n");
+      out.write("\t\t\t\t\t\t\t<label for=\"SfKSelect04\"><input type=\"checkbox\" class=\"inpChk01\" name=\"SfKSelect\" id=\"SfKSelect04\">スタッフ管理</label>\r\n");
+      out.write("\t\t\t\t\t\t</li>\r\n");
+      out.write("\t\t\t\t\t\t<li>\r\n");
+      out.write("\t\t\t\t\t\t\t<label for=\"SfKSelect05\"><input type=\"checkbox\" class=\"inpChk01\" name=\"SfKSelect\" id=\"SfKSelect05\">当日処理</label>\r\n");
+      out.write("\t\t\t\t\t\t</li>\r\n");
+      out.write("\t\t\t\t\t\t<li>\r\n");
+      out.write("\t\t\t\t\t\t\t<label for=\"SfKSelect06\"><input type=\"checkbox\" class=\"inpChk01\" name=\"SfKSelect\" id=\"SfKSelect06\">経営管理</label>\r\n");
+      out.write("\t\t\t\t\t\t</li>\r\n");
+      out.write("\t\t\t\t\t</ul>\r\n");
+      out.write("\t\t\t\t</td>\r\n");
+      out.write("\t\t\t</tr>\r\n");
+      out.write("\t\t\t<!-- /row -->\r\n");
+      out.write("\t\t</tbody>\r\n");
+      out.write("\t</table>\r\n");
+      out.write("\t<!-- .tbl01 -->\r\n");
+      out.write("\t<p class=\"txtCenter\" id=\"BtnArea01\">\r\n");
+      out.write("\t\t<input type=\"button\" value=\"登録:F1\" class=\"inpBtn01 mr20\">\r\n");
+      out.write("\t\t<input type=\"button\" value=\"戻る:F3\" class=\"inpBtn01\">\r\n");
+      out.write("\t</p>\r\n");
+      out.write("\t<!-- #BtnArea01 -->\r\n");
       out.write("</div>\r\n");
       out.write("<!-- //ContentMainArea ================== -->\r\n");
-      out.write("\r\n");
-      out.write("<!-- ContentSubArea ================== -->\r\n");
-      out.write("<!--#include virtual=\"/gcms_common/shared/include/subarea.txt\" -->\r\n");
-      out.write("<!-- //ContentSubArea ================== -->\r\n");
       out.write("\r\n");
       out.write("</div><!-- /.cwInnr01 -->\r\n");
       out.write("</div>\r\n");
@@ -213,8 +209,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
     org.apache.struts.taglib.tiles.InsertTag _jspx_th_tiles_005finsert_005f0 = (org.apache.struts.taglib.tiles.InsertTag) _005fjspx_005ftagPool_005ftiles_005finsert_0026_005ftemplate_005fnobody.get(org.apache.struts.taglib.tiles.InsertTag.class);
     _jspx_th_tiles_005finsert_005f0.setPageContext(_jspx_page_context);
     _jspx_th_tiles_005finsert_005f0.setParent(null);
-    // /WEB-INF/view/index.jsp(32,0) name = template type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
-    _jspx_th_tiles_005finsert_005f0.setTemplate("common/header.jsp");
+    // /WEB-INF/view/master/A001020.jsp(32,0) name = template type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_tiles_005finsert_005f0.setTemplate("../common/header.jsp");
     int _jspx_eval_tiles_005finsert_005f0 = _jspx_th_tiles_005finsert_005f0.doStartTag();
     if (_jspx_th_tiles_005finsert_005f0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _005fjspx_005ftagPool_005ftiles_005finsert_0026_005ftemplate_005fnobody.reuse(_jspx_th_tiles_005finsert_005f0);
@@ -232,8 +228,8 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
     org.apache.struts.taglib.tiles.InsertTag _jspx_th_tiles_005finsert_005f1 = (org.apache.struts.taglib.tiles.InsertTag) _005fjspx_005ftagPool_005ftiles_005finsert_0026_005ftemplate_005fnobody.get(org.apache.struts.taglib.tiles.InsertTag.class);
     _jspx_th_tiles_005finsert_005f1.setPageContext(_jspx_page_context);
     _jspx_th_tiles_005finsert_005f1.setParent(null);
-    // /WEB-INF/view/index.jsp(116,0) name = template type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
-    _jspx_th_tiles_005finsert_005f1.setTemplate("common/footer.jsp");
+    // /WEB-INF/view/master/A001020.jsp(112,0) name = template type = null reqTime = true required = false fragment = false deferredValue = false expectedTypeName = null deferredMethod = false methodSignature = null
+    _jspx_th_tiles_005finsert_005f1.setTemplate("../common/footer.jsp");
     int _jspx_eval_tiles_005finsert_005f1 = _jspx_th_tiles_005finsert_005f1.doStartTag();
     if (_jspx_th_tiles_005finsert_005f1.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _005fjspx_005ftagPool_005ftiles_005finsert_0026_005ftemplate_005fnobody.reuse(_jspx_th_tiles_005finsert_005f1);

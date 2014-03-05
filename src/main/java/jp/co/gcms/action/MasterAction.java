@@ -20,7 +20,52 @@ import org.seasar.struts.annotation.Execute;
 public class MasterAction {
 	//
     @Execute(validator = false)
-	public String index() {
-        return "index.jsp";
+	public String mrEmployeeEntry() {
+        return "mrEmployeeEntry.jsp";
+	}
+    //
+    @Execute(validator = false)
+	public String mrEmployeeList() {
+        return "mrEmployeeList.jsp";
+	}
+    //
+    @Execute(validator = false)
+	public String mrFacilityEntry() {
+        return "mrFacilityEntry.jsp";
+	}
+    //
+    @Execute(validator = false)
+    public String mrFacilityList() {
+    	return "mrFacilityList.jsp";
+    }
+    //
+    @Execute(validator = false)
+	public String mrRockerEntry() {
+        return "mrRockerEntry.jsp";
+	}
+    //
+    @Execute(validator = false)
+	public String mrRockerList() {
+        return "mrRockerList.jsp";
+	}
+    //
+    @Execute(validator = false)
+	public String mrReserveEntry() {
+        return "mrReserveEntry.jsp";
+	}
+    //
+    @Execute(validator = false)
+	public String mrReserveList() {
+        return "mrReserveList.jsp";
+	}
+    //
+    @Execute(validator = false)
+	public String mrPlayEntry() {
+        return "mrPlayEntry.jsp";
+	}
+    //
+    @Execute(validator = false)
+	public String mrPlayList() {
+        return "mrPlayList.jsp";
 	}
 }
