@@ -1,8 +1,0 @@
-DaoType=S2JDBC
-DefaultResourcePath=/gcms/src/main/resources
-DefaultRootPackage=jp.co.gcms
-DefaultSrcPath=/gcms/src/main/java
-ServletPath=/gcms
-ViewType=SA-Struts
-WebContentsRoot=src/main/webapp/
-eclipse.preferences.version=1
